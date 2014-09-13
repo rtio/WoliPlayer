@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audios>
+	<audio>
+		<id>1</id>
+		<nome>Cesium</nome>
+		<src>audio/Cesium.ogg</src>
+	</audio>
+	<audio>
+		<id>2</id>
+		<nome>Fermium</nome>
+		<src>audio/Fermium.ogg</src>
+	</audio>
+	<audio>
+		<id>3</id>
+		<nome>Hassium</nome>
+		<src>audio/Hassium.ogg</src>
+	</audio>
+	<audio>
+		<id>4</id>
+		<nome>Neptunium</nome>
+		<src>audio/Neptunium.ogg</src>
+	</audio>
+	<audio>
+		<id>5</id>
+		<nome>Nobelium</nome>
+		<src>audio/Nobelium.ogg</src>
+	</audio>
+	<audio>
+		<id>6</id>
+		<nome>Plutonium</nome>
+		<src>audio/Plutonium.ogg</src>
+	</audio>
+</audios>

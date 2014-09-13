@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="pt-br" ng-app="ysons">
+<head>
+	<meta charset="UTF-8">
+	<title>Y Sons</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+</head>
+<body>
+<div class="bar bar-header bar-light">
+  <h1 class="title">WoliPlayer</h1>
+</div>
+	<div style="margin-top: 50px;" ng-controller="AppController">
+			<ul>
+				<li ng-repeat="audio in dataSet">
+					<audio loop id="{{audio.id}}">
+						<source src="{{audio.src}}" type="audio/ogg">
+					</audio>
+					<button class="button icon-left ion-ios7-volume-high button-outline button-full button-energized" ng-mousedown="playSound(audio.id)" ng-mouseup="stopSound(audio.id)">{{audio.nome}}</button>
+				</li>
+			</ul>
+	</div>
+
+<!-- Begin Styles -->
+<link href="ionic/css/ionic.css" rel="stylesheet">
+<!-- Begin scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.js"></script>
+<script src="js/xml2json.js"></script>
+<script src="js/module.js"></script>
+<script src="ionic/js/ionic.js"></script>
+</body>
+</html>
